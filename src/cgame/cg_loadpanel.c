@@ -652,7 +652,7 @@ void CG_LoadTipPanel(panel_button_t *butoon)
 
 	tips[i][j];
 
-	x = 320;
+	x = 320 + cgs.wideXoffset;
 	y = 430;
 
 	i = rand() % 10;	//FIXME: This should work once per load map not every refresh
